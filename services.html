@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Services | M Hospitality Thailand</title>
+<meta name="description" content="F&B restaurant, hotel, cloud kitchen, chef recruiting, marketing, legal and equipment consulting from M Hospitality Thailand.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600&family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&family=Noto+Sans+Thai:wght@400;500;600&family=Noto+Serif+Thai:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/site-v5.css">
+<style>
+.phero{padding:72px 0 56px;position:relative;isolation:isolate}
+.phero::before{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(90deg,rgba(248,245,238,.94) 0%,rgba(248,245,238,.82) 55%,rgba(248,245,238,.5) 100%),url(assets/bg-table.jpg) center/cover no-repeat;-webkit-mask-image:linear-gradient(#000 72%,transparent);mask-image:linear-gradient(#000 72%,transparent)}
+@media (max-width:700px){.phero::before{background:linear-gradient(rgba(248,245,238,.9),rgba(248,245,238,.82)),url(assets/bg-table-sm.jpg) center/cover no-repeat}}
+.phero h1{font-size:clamp(2.6rem,5vw,4.2rem);line-height:1.06;letter-spacing:-.025em}
+html[lang="th"] .phero h1{line-height:1.3}
+.phero .lede{margin-top:22px;max-width:36em;font-size:clamp(1.08rem,1.5vw,1.22rem)}
+.sp{padding:24px 0 96px}
+.sp .wrap{display:grid;grid-template-columns:230px minmax(0,1fr);gap:72px;align-items:start}
+.sp .wrap>*{min-width:0}
+.snav{position:sticky;top:104px}
+.snav b{display:block;font:600 14px/1.3 var(--sans);color:var(--muted);margin-bottom:12px}
+.snav ul{list-style:none;margin:0;padding:0;border-left:2px solid var(--line2)}
+.snav a{display:block;padding:8px 0 8px 16px;margin-left:-2px;border-left:2px solid transparent;font-size:15px;line-height:1.4;text-decoration:none;color:var(--body)}
+.snav a:hover{color:var(--ink)}
+.snav a.on{border-color:var(--brass);color:var(--ink);font-weight:600}
+.sd{padding:48px 0 52px;border-top:1px solid var(--line2)}
+.sd:first-child{border-top:0;padding-top:8px}
+.sd h2{font-size:clamp(1.8rem,3vw,2.4rem);line-height:1.15;letter-spacing:-.015em}
+html[lang="th"] .sd h2{line-height:1.4}
+.sd .intro{margin-top:16px;max-width:38em;font-size:1.06rem}
+.cols{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,.8fr);gap:40px;margin-top:32px}
+.cols h3{font:600 15px/1.3 var(--sans);color:var(--muted);margin-bottom:14px}
+.cover{list-style:none;margin:0;padding:0;display:grid;gap:12px}
+.cover li{position:relative;padding-left:24px}
+.cover li::before{content:"";position:absolute;left:0;top:.62em;width:9px;height:9px;border-radius:2px;background:var(--brass)}
+.fit{background:var(--mist);border:1px solid var(--line2);border-radius:16px;padding:24px;align-self:start}
+.fit p{color:var(--ink)}
+.fit .ask{display:inline-block;margin-top:16px;font-weight:600;font-size:15.5px;color:var(--teal);text-decoration:none;border-bottom:2px solid transparent}
+.fit .ask:hover{border-color:var(--teal)}
+.cta{background:var(--jade);color:#eef3f1;padding:88px 0}
+.cta .wrap{display:flex;flex-wrap:wrap;gap:28px 56px;align-items:center;justify-content:space-between}
+.cta h2{color:#fff;max-width:18ch;font-size:clamp(1.9rem,3.2vw,2.6rem);line-height:1.15}
+html[lang="th"] .cta h2{line-height:1.4;max-width:22ch}
+.cta p{margin-top:12px;color:#d3e7e3;max-width:30em}
+.cta .btns{display:flex;flex-wrap:wrap;gap:14px}
+.cta .btn-line{border-color:#f8f5ee;color:#f8f5ee}
+.cta .btn-line:hover{background:#f8f5ee;color:var(--jade)}
+@media (max-width:1020px){
+  .sp .wrap{grid-template-columns:1fr;gap:28px}
+  .snav{position:static}
+  .snav b{display:none}
+  .snav ul{display:flex;gap:8px;overflow-x:auto;border:0;padding-bottom:6px}
+  .snav a{white-space:nowrap;border:1px solid var(--line2);border-radius:999px;padding:9px 14px;margin:0}
+  .snav a.on{border-color:var(--brass)}
+  .cols{grid-template-columns:1fr;gap:28px}
+}
+@media (max-width:640px){.phero{padding:44px 0 24px}.cta{padding:64px 0}.cta .btns .btn{width:100%}}
+</style>
+<script src="assets/site-v5.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#main" data-i18n="skip">Skip to content</a>
+
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="index.html" aria-label="M Hospitality Thailand">
+      <img src="assets/monogram.png" alt="" width="38" height="32">
+      <b>M Hospitality</b><span>Thailand</span>
+    </a>
+    <nav class="main" id="mnav" aria-label="Main">
+      <a href="services.html" aria-current="page" data-i18n="nav_services" style="color:var(--ink);border-color:var(--brass)">Services</a>
+      <a href="about.html" data-i18n="nav_about">About</a>
+      <a href="index.html#experience" data-i18n="nav_exp">Experience</a>
+      <a href="index.html#brands" data-i18n="nav_brands">Our brands</a>
+      <a href="index.html#contact" data-i18n="nav_contact">Contact</a>
+      <a class="btn btn-pine navcta" href="index.html#contact" data-i18n="nav_cta">Talk to us</a>
+    </nav>
+    <div class="lang" role="group" aria-label="Language">
+      <button type="button" data-lang="en" aria-pressed="true">EN</button>
+      <button type="button" data-lang="th" aria-pressed="false">TH</button>
+      <button type="button" data-lang="de" aria-pressed="false">DE</button>
+    </div>
+    <a class="btn btn-pine" href="index.html#contact" data-i18n="nav_cta">Talk to us</a>
+    <button class="burger" type="button" aria-label="Menu" aria-expanded="false" aria-controls="mnav"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<main id="main">
+  <section class="phero">
+    <div class="wrap">
+      <h1 data-i18n="p_h">Our services</h1>
+      <p class="lede" data-i18n="p_lede">Seven ways we help hotels, restaurants and food entrepreneurs, from the first idea to daily operations. Use one service or combine several.</p>
+    </div>
+  </section>
+
+  <div class="sp">
+    <div class="wrap">
+      <aside class="snav" aria-label="Services"><b data-i18n="on_page">On this page</b><ul><li><a href="#restaurant" data-i18n="s1t">F&amp;B Restaurant Consulting</a></li><li><a href="#hotel" data-i18n="s2t">Hotel &amp; Hospitality Consulting</a></li><li><a href="#cloud-kitchen" data-i18n="s3t">Cloud Kitchen Consulting</a></li><li><a href="#chef-recruiting" data-i18n="s4t">Chef Recruiting Consulting</a></li><li><a href="#marketing" data-i18n="s5t">Marketing Consulting</a></li><li><a href="#legal" data-i18n="s6t">Legal Consulting</a></li><li><a href="#equipment" data-i18n="s7t">Kitchen &amp; Restaurant Equipment Sourcing and Fitting</a></li></ul></aside>
+      <div>
+      <section class="sd" id="restaurant">
+        <h2 data-i18n="s1t">F&amp;B Restaurant Consulting</h2>
+        <p class="intro" data-i18n="s1i">We help you shape a restaurant concept that can actually be run well, then support it through opening and daily operations. The focus is profitability, consistency and guest experience.</p>
+        <div class="cols">
+          <div><h3 data-i18n="cover">What we cover</h3><ul class="cover"><li data-i18n="s1c1">Concept development and brand positioning</li><li data-i18n="s1c2">Menu design and menu engineering</li><li data-i18n="s1c3">Kitchen and front-of-house workflows</li><li data-i18n="s1c4">Costing, pricing and margin control</li><li data-i18n="s1c5">Opening preparation and daily operations support</li></ul></div>
+          <div class="fit"><h3 data-i18n="fit">A good fit if</h3><p data-i18n="s1f">You are opening a new restaurant, or an existing one is not performing as it should.</p>
+            <a class="ask" href="index.html#contact" data-i18n="ask">Ask about this service</a></div>
+        </div>
+      </section>
+      <section class="sd" id="hotel">
+        <h2 data-i18n="s2t">Hotel &amp; Hospitality Consulting</h2>
+        <p class="intro" data-i18n="s2i">We step in when a hotel&#x27;s food and beverage operation is new, struggling or suddenly short-staffed, such as when a chef leaves. The aim is a stable kitchen, a better guest experience and restored profitability.</p>
+        <div class="cols">
+          <div><h3 data-i18n="cover">What we cover</h3><ul class="cover"><li data-i18n="s2c1">Review of current F&amp;B operations and costs</li><li data-i18n="s2c2">Interim support when key staff leave</li><li data-i18n="s2c3">Menu, outlet and service improvements</li><li data-i18n="s2c4">Team structure and standard operating procedures</li><li data-i18n="s2c5">Guest experience and profitability targets</li></ul></div>
+          <div class="fit"><h3 data-i18n="fit">A good fit if</h3><p data-i18n="s2f">Your hotel needs F&amp;B support now, or an outlet is not performing.</p>
+            <a class="ask" href="index.html#contact" data-i18n="ask">Ask about this service</a></div>
+        </div>
+      </section>
+      <section class="sd" id="cloud-kitchen">
+        <h2 data-i18n="s3t">Cloud Kitchen Consulting</h2>
+        <p class="intro" data-i18n="s3i">We set up delivery-focused concepts properly from the start, so the menu, the costs and the kitchen are built for delivery rather than adapted to it later.</p>
+        <div class="cols">
+          <div><h3 data-i18n="cover">What we cover</h3><ul class="cover"><li data-i18n="s3c1">Delivery-first menu design</li><li data-i18n="s3c2">Food costing and platform pricing</li><li data-i18n="s3c3">Kitchen layout and workflow for delivery volume</li><li data-i18n="s3c4">Packaging and order flow</li><li data-i18n="s3c5">Positioning and setup on delivery platforms</li></ul></div>
+          <div class="fit"><h3 data-i18n="fit">A good fit if</h3><p data-i18n="s3f">You want to launch a delivery-only brand, or add delivery to an existing kitchen.</p>
+            <a class="ask" href="index.html#contact" data-i18n="ask">Ask about this service</a></div>
+        </div>
+      </section>
+      <section class="sd" id="chef-recruiting">
+        <h2 data-i18n="s4t">Chef Recruiting Consulting</h2>
+        <p class="intro" data-i18n="s4i">We connect you with head chefs in Thailand and abroad who fit your concept, your standards and your kitchen culture.</p>
+        <div class="cols">
+          <div><h3 data-i18n="cover">What we cover</h3><ul class="cover"><li data-i18n="s4c1">Defining the chef profile your concept needs</li><li data-i18n="s4c2">Finding candidates in Thailand and abroad</li><li data-i18n="s4c3">Screening for skills, standards and kitchen fit</li><li data-i18n="s4c4">Support with interviews and trade tests</li><li data-i18n="s4c5">Help with the offer and the start of employment</li></ul></div>
+          <div class="fit"><h3 data-i18n="fit">A good fit if</h3><p data-i18n="s4f">You need a head chef for a new opening, or you are replacing one.</p>
+            <a class="ask" href="index.html#contact" data-i18n="ask">Ask about this service</a></div>
+        </div>
+      </section>
+      <section class="sd" id="marketing">
+        <h2 data-i18n="s5t">Marketing Consulting</h2>
+        <p class="intro" data-i18n="s5i">Brand and digital marketing built around results you can measure, including the setup your delivery listings need.</p>
+        <div class="cols">
+          <div><h3 data-i18n="cover">What we cover</h3><ul class="cover"><li data-i18n="s5c1">Brand strategy and positioning</li><li data-i18n="s5c2">Digital marketing and social media</li><li data-i18n="s5c3">Content and campaigns</li><li data-i18n="s5c4">Delivery platform setup and optimisation</li><li data-i18n="s5c5">Tracking results against clear goals</li></ul></div>
+          <div class="fit"><h3 data-i18n="fit">A good fit if</h3><p data-i18n="s5f">You are launching a brand, or you have a good product that not enough people know about.</p>
+            <a class="ask" href="index.html#contact" data-i18n="ask">Ask about this service</a></div>
+        </div>
+      </section>
+      <section class="sd" id="legal">
+        <h2 data-i18n="s6t">Legal Consulting</h2>
+        <p class="intro" data-i18n="s6i">We handle the legal groundwork for opening, so your business is set up and licensed correctly from day one.</p>
+        <div class="cols">
+          <div><h3 data-i18n="cover">What we cover</h3><ul class="cover"><li data-i18n="s6c1">Company formation and registration</li><li data-i18n="s6c2">Licences and permits for food and beverage businesses</li><li data-i18n="s6c3">Regulatory requirements for your type of business</li><li data-i18n="s6c4">Guidance on what to prepare before opening</li></ul></div>
+          <div class="fit"><h3 data-i18n="fit">A good fit if</h3><p data-i18n="s6f">You are opening in Thailand and want to do it compliantly.</p>
+            <a class="ask" href="index.html#contact" data-i18n="ask">Ask about this service</a></div>
+        </div>
+      </section>
+      <section class="sd" id="equipment">
+        <h2 data-i18n="s7t">Kitchen &amp; Restaurant Equipment Sourcing and Fitting</h2>
+        <p class="intro" data-i18n="s7i">We plan, source and install the equipment your kitchen actually needs, whether you are building new or renovating.</p>
+        <div class="cols">
+          <div><h3 data-i18n="cover">What we cover</h3><ul class="cover"><li data-i18n="s7c1">Kitchen layout and equipment planning</li><li data-i18n="s7c2">Choosing equipment to fit your menu and budget</li><li data-i18n="s7c3">Sourcing from suppliers</li><li data-i18n="s7c4">Delivery, installation and fitting</li><li data-i18n="s7c5">Handover and checks before you open</li></ul></div>
+          <div class="fit"><h3 data-i18n="fit">A good fit if</h3><p data-i18n="s7f">You are building a new kitchen, or renovating a restaurant or hotel.</p>
+            <a class="ask" href="index.html#contact" data-i18n="ask">Ask about this service</a></div>
+        </div>
+      </section>
+      </div>
+    </div>
+  </div>
+
+  <section class="cta">
+    <div class="wrap">
+      <div><h2 data-i18n="c_h">Not sure which service you need?</h2><p data-i18n="c_sub">Tell us where you are and we'll suggest where to start.</p></div>
+      <div class="btns">
+        <a class="btn btn-brass" href="index.html#contact" data-i18n="c_btn">Send an inquiry</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <a class="brand" href="index.html" aria-label="M Hospitality Thailand"><img src="assets/monogram.png" alt="" width="34" height="29"><b>M Hospitality</b><span>Thailand</span></a>
+    <p>&copy; 2026 M Hospitality Thailand</p>
+  </div>
+</footer>
+
+
+<script>
+try{history.scrollRestoration="manual"}catch(e){}
+if(!location.hash){window.scrollTo(0,0)}
+window.addEventListener("pageshow",function(){if(!location.hash)window.scrollTo(0,0)});
+document.querySelectorAll('a[aria-current="page"]').forEach(function(a){a.addEventListener("click",function(e){e.preventDefault();window.scrollTo({top:0,behavior:"smooth"})})});
+var T={"en": {"skip": "Skip to content", "nav_about": "About", "nav_services": "Services", "nav_exp": "Experience", "nav_brands": "Our brands", "nav_contact": "Contact", "nav_cta": "Talk to us", "p_h": "Our services", "p_lede": "Seven ways we help hotels, restaurants and food entrepreneurs, from the first idea to daily operations. Use one service or combine several.", "on_page": "On this page", "cover": "What we cover", "fit": "A good fit if", "ask": "Ask about this service", "c_h": "Not sure which service you need?", "c_sub": "Tell us where you are and we'll suggest where to start.", "c_btn": "Send an inquiry", "c_call": "Call", "m_call": "Call", "m_enq": "Send inquiry", "title": "Services | M Hospitality Thailand", "s1t": "F&B Restaurant Consulting", "s1i": "We help you shape a restaurant concept that can actually be run well, then support it through opening and daily operations. The focus is profitability, consistency and guest experience.", "s1f": "You are opening a new restaurant, or an existing one is not performing as it should.", "s1c1": "Concept development and brand positioning", "s1c2": "Menu design and menu engineering", "s1c3": "Kitchen and front-of-house workflows", "s1c4": "Costing, pricing and margin control", "s1c5": "Opening preparation and daily operations support", "s2t": "Hotel & Hospitality Consulting", "s2i": "We step in when a hotel's food and beverage operation is new, struggling or suddenly short-staffed, such as when a chef leaves. The aim is a stable kitchen, a better guest experience and restored profitability.", "s2f": "Your hotel needs F&B support now, or an outlet is not performing.", "s2c1": "Review of current F&B operations and costs", "s2c2": "Interim support when key staff leave", "s2c3": "Menu, outlet and service improvements", "s2c4": "Team structure and standard operating procedures", "s2c5": "Guest experience and profitability targets", "s3t": "Cloud Kitchen Consulting", "s3i": "We set up delivery-focused concepts properly from the start, so the menu, the costs and the kitchen are built for delivery rather than adapted to it later.", "s3f": "You want to launch a delivery-only brand, or add delivery to an existing kitchen.", "s3c1": "Delivery-first menu design", "s3c2": "Food costing and platform pricing", "s3c3": "Kitchen layout and workflow for delivery volume", "s3c4": "Packaging and order flow", "s3c5": "Positioning and setup on delivery platforms", "s4t": "Chef Recruiting Consulting", "s4i": "We connect you with head chefs in Thailand and abroad who fit your concept, your standards and your kitchen culture.", "s4f": "You need a head chef for a new opening, or you are replacing one.", "s4c1": "Defining the chef profile your concept needs", "s4c2": "Finding candidates in Thailand and abroad", "s4c3": "Screening for skills, standards and kitchen fit", "s4c4": "Support with interviews and trade tests", "s4c5": "Help with the offer and the start of employment", "s5t": "Marketing Consulting", "s5i": "Brand and digital marketing built around results you can measure, including the setup your delivery listings need.", "s5f": "You are launching a brand, or you have a good product that not enough people know about.", "s5c1": "Brand strategy and positioning", "s5c2": "Digital marketing and social media", "s5c3": "Content and campaigns", "s5c4": "Delivery platform setup and optimisation", "s5c5": "Tracking results against clear goals", "s6t": "Legal Consulting", "s6i": "We handle the legal groundwork for opening, so your business is set up and licensed correctly from day one.", "s6f": "You are opening in Thailand and want to do it compliantly.", "s6c1": "Company formation and registration", "s6c2": "Licences and permits for food and beverage businesses", "s6c3": "Regulatory requirements for your type of business", "s6c4": "Guidance on what to prepare before opening", "s7t": "Kitchen & Restaurant Equipment Sourcing and Fitting", "s7i": "We plan, source and install the equipment your kitchen actually needs, whether you are building new or renovating.", "s7f": "You are building a new kitchen, or renovating a restaurant or hotel.", "s7c1": "Kitchen layout and equipment planning", "s7c2": "Choosing equipment to fit your menu and budget", "s7c3": "Sourcing from suppliers", "s7c4": "Delivery, installation and fitting", "s7c5": "Handover and checks before you open"}, "th": {"skip": "ข้ามไปที่เนื้อหา", "nav_about": "เกี่ยวกับเรา", "nav_services": "บริการ", "nav_exp": "ประสบการณ์", "nav_brands": "แบรนด์ของเรา", "nav_contact": "ติดต่อ", "nav_cta": "ปรึกษาเรา", "p_h": "บริการของเรา", "p_lede": "เจ็ดด้านที่เราช่วยโรงแรม ร้านอาหาร และผู้ประกอบการอาหาร ตั้งแต่ไอเดียแรกจนถึงการดำเนินงานประจำวัน ใช้บริการเดียวหรือผสมหลายบริการก็ได้", "on_page": "ในหน้านี้", "cover": "ขอบเขตงาน", "fit": "เหมาะกับคุณถ้า", "ask": "สอบถามบริการนี้", "c_h": "ไม่แน่ใจว่าต้องใช้บริการไหน", "c_sub": "บอกเราว่าคุณอยู่ในช่วงไหน แล้วเราจะแนะนำว่าควรเริ่มจากตรงไหน", "c_btn": "ส่งข้อความถึงเรา", "c_call": "โทร", "m_call": "โทร", "m_enq": "ส่งข้อความ", "title": "บริการ | M Hospitality Thailand", "s1t": "ที่ปรึกษาร้านอาหารและเครื่องดื่ม", "s1i": "เราช่วยกำหนดคอนเซ็ปต์ร้านอาหารที่ดำเนินงานได้จริง แล้วสนับสนุนตั้งแต่การเปิดร้านจนถึงการดำเนินงานประจำวัน โดยเน้นกำไร ความสม่ำเสมอ และประสบการณ์ของลูกค้า", "s1f": "คุณกำลังจะเปิดร้านอาหารใหม่ หรือร้านเดิมยังไม่ทำผลงานได้อย่างที่ควร", "s1c1": "พัฒนาคอนเซ็ปต์และวางตำแหน่งแบรนด์", "s1c2": "ออกแบบและปรับปรุงเมนู", "s1c3": "ขั้นตอนการทำงานในครัวและหน้าร้าน", "s1c4": "การคำนวณต้นทุน การตั้งราคา และการควบคุมกำไร", "s1c5": "เตรียมการเปิดร้านและสนับสนุนการดำเนินงานประจำวัน", "s2t": "ที่ปรึกษาโรงแรมและธุรกิจบริการ", "s2i": "เราเข้าช่วยเมื่อธุรกิจอาหารและเครื่องดื่มของโรงแรมเพิ่งเริ่มต้น กำลังมีปัญหา หรือขาดคนกะทันหัน เช่น เชฟลาออก เป้าหมายคือครัวที่มั่นคง ประสบการณ์แขกที่ดีขึ้น และกำไรที่กลับมา", "s2f": "โรงแรมของคุณต้องการความช่วยเหลือด้าน F&B ทันที หรือมีเอาต์เล็ตที่ยังทำผลงานได้ไม่ดี", "s2c1": "ตรวจสอบการดำเนินงานและต้นทุน F&B ปัจจุบัน", "s2c2": "ช่วยชั่วคราวเมื่อบุคลากรหลักลาออก", "s2c3": "ปรับปรุงเมนู เอาต์เล็ต และการบริการ", "s2c4": "โครงสร้างทีมและขั้นตอนปฏิบัติงานมาตรฐาน (SOP)", "s2c5": "เป้าหมายด้านประสบการณ์แขกและกำไร", "s3t": "ที่ปรึกษาคลาวด์คิทเช่น", "s3i": "เราสร้างธุรกิจเดลิเวอรี่ให้ถูกต้องตั้งแต่เริ่มต้น เพื่อให้เมนู ต้นทุน และครัวถูกออกแบบมาเพื่อเดลิเวอรี่โดยตรง ไม่ใช่ดัดแปลงทีหลัง", "s3f": "คุณอยากเปิดแบรนด์เดลิเวอรี่อย่างเดียว หรือเพิ่มเดลิเวอรี่ให้ครัวที่มีอยู่", "s3c1": "ออกแบบเมนูสำหรับเดลิเวอรี่", "s3c2": "คำนวณต้นทุนอาหารและตั้งราคาบนแพลตฟอร์ม", "s3c3": "ผังครัวและขั้นตอนการทำงานรองรับปริมาณออเดอร์", "s3c4": "บรรจุภัณฑ์และการจัดการออเดอร์", "s3c5": "วางตำแหน่งและตั้งค่าบนแพลตฟอร์มเดลิเวอรี่", "s4t": "ที่ปรึกษาสรรหาเชฟ", "s4i": "เราจับคู่คุณกับหัวหน้าเชฟทั้งในไทยและต่างประเทศ ที่เข้ากับคอนเซ็ปต์ มาตรฐาน และวัฒนธรรมครัวของคุณ", "s4f": "คุณต้องการหัวหน้าเชฟสำหรับร้านใหม่ หรือกำลังหาคนมาแทนตำแหน่งเดิม", "s4c1": "กำหนดโปรไฟล์เชฟที่คอนเซ็ปต์ของคุณต้องการ", "s4c2": "ค้นหาผู้สมัครทั้งในไทยและต่างประเทศ", "s4c3": "คัดกรองทักษะ มาตรฐาน และความเหมาะสมกับครัว", "s4c4": "ช่วยจัดการสัมภาษณ์และทดสอบฝีมือ", "s4c5": "ช่วยเรื่องข้อเสนอและการเริ่มงาน", "s5t": "ที่ปรึกษาการตลาด", "s5i": "การตลาดแบรนด์และดิจิทัลที่เน้นผลลัพธ์ซึ่งวัดได้ รวมถึงการตั้งค่าที่รายการบนแพลตฟอร์มเดลิเวอรี่ของคุณต้องใช้", "s5f": "คุณกำลังเปิดตัวแบรนด์ หรือมีสินค้าดีแต่ยังมีคนรู้จักไม่มาก", "s5c1": "กลยุทธ์และการวางตำแหน่งแบรนด์", "s5c2": "การตลาดดิจิทัลและโซเชียลมีเดีย", "s5c3": "คอนเทนต์และแคมเปญ", "s5c4": "ตั้งค่าและปรับปรุงบนแพลตฟอร์มเดลิเวอรี่", "s5c5": "ติดตามผลเทียบกับเป้าหมายที่ชัดเจน", "s6t": "ที่ปรึกษากฎหมาย", "s6i": "เราดูแลงานด้านกฎหมายที่จำเป็นก่อนเปิดธุรกิจ เพื่อให้กิจการจัดตั้งและมีใบอนุญาตถูกต้องตั้งแต่วันแรก", "s6f": "คุณกำลังจะเปิดธุรกิจในประเทศไทยและต้องการทำให้ถูกต้องตามกฎหมาย", "s6c1": "จดทะเบียนจัดตั้งบริษัท", "s6c2": "ใบอนุญาตและใบรับรองสำหรับธุรกิจอาหารและเครื่องดื่ม", "s6c3": "ข้อกำหนดทางกฎหมายตามประเภทธุรกิจของคุณ", "s6c4": "คำแนะนำเรื่องสิ่งที่ต้องเตรียมก่อนเปิด", "s7t": "จัดหาและติดตั้งอุปกรณ์ครัวและร้านอาหาร", "s7i": "เราวางแผน จัดหา และติดตั้งอุปกรณ์ที่ครัวของคุณต้องใช้จริง ทั้งโครงการใหม่และงานปรับปรุง", "s7f": "คุณกำลังสร้างครัวใหม่ หรือปรับปรุงร้านอาหารหรือโรงแรม", "s7c1": "วางผังครัวและวางแผนอุปกรณ์", "s7c2": "เลือกอุปกรณ์ให้เหมาะกับเมนูและงบประมาณ", "s7c3": "จัดหาจากซัพพลายเออร์", "s7c4": "จัดส่ง ติดตั้ง และประกอบ", "s7c5": "ส่งมอบงานและตรวจสอบก่อนเปิดใช้งาน"}, "de": {"skip": "Zum Inhalt springen", "nav_about": "Über uns", "nav_services": "Leistungen", "nav_exp": "Erfahrung", "nav_brands": "Unsere Marken", "nav_contact": "Kontakt", "nav_cta": "Jetzt anfragen", "p_h": "Unsere Leistungen", "p_lede": "Sieben Bereiche, in denen wir Hotels, Restaurants und Gastronomie-Gründer unterstützen – von der ersten Idee bis zum Tagesgeschäft. Nutzen Sie eine Leistung oder kombinieren Sie mehrere.", "on_page": "Auf dieser Seite", "cover": "Das umfasst unsere Arbeit", "fit": "Passt, wenn", "ask": "Zu dieser Leistung anfragen", "c_h": "Unsicher, welche Leistung Sie brauchen?", "c_sub": "Sagen Sie uns, wo Sie stehen – wir schlagen einen Einstieg vor.", "c_btn": "Anfrage senden", "c_call": "Anrufen", "m_call": "Anrufen", "m_enq": "Anfrage senden", "title": "Leistungen | M Hospitality Thailand", "s1t": "F&B-Restaurantberatung", "s1i": "Wir helfen Ihnen, ein Restaurantkonzept zu entwickeln, das sich gut betreiben lässt, und begleiten es durch Eröffnung und Tagesgeschäft. Im Mittelpunkt stehen Rentabilität, Beständigkeit und Gästeerlebnis.", "s1f": "Sie eröffnen ein neues Restaurant, oder ein bestehendes läuft nicht so, wie es sollte.", "s1c1": "Konzeptentwicklung und Markenpositionierung", "s1c2": "Menügestaltung und Menü-Engineering", "s1c3": "Abläufe in Küche und Service", "s1c4": "Kalkulation, Preisgestaltung und Margenkontrolle", "s1c5": "Eröffnungsvorbereitung und Unterstützung im Tagesgeschäft", "s2t": "Hotel- und Hospitality-Beratung", "s2i": "Wir springen ein, wenn der Food-&-Beverage-Betrieb eines Hotels neu ist, Probleme hat oder plötzlich Personal fehlt, etwa wenn ein Küchenchef geht. Ziel sind eine stabile Küche, ein besseres Gästeerlebnis und wiederhergestellte Rentabilität.", "s2f": "Ihr Hotel braucht jetzt F&B-Unterstützung, oder ein Outlet läuft nicht gut.", "s2c1": "Analyse des aktuellen F&B-Betriebs und der Kosten", "s2c2": "Interimsunterstützung, wenn Schlüsselpersonal geht", "s2c3": "Verbesserungen bei Menü, Outlets und Service", "s2c4": "Teamstruktur und Standardabläufe (SOPs)", "s2c5": "Ziele für Gästeerlebnis und Rentabilität", "s3t": "Cloud-Kitchen-Beratung", "s3i": "Wir bauen lieferorientierte Konzepte von Anfang an richtig auf, damit Menü, Kosten und Küche für den Lieferbetrieb ausgelegt sind und nicht erst nachträglich angepasst werden.", "s3f": "Sie möchten eine reine Liefermarke starten oder eine bestehende Küche um Lieferung erweitern.", "s3c1": "Menügestaltung mit Fokus auf Lieferung", "s3c2": "Warenkalkulation und Preisgestaltung auf Plattformen", "s3c3": "Küchenaufbau und Abläufe für hohes Bestellvolumen", "s3c4": "Verpackung und Bestellabwicklung", "s3c5": "Positionierung und Einrichtung auf Lieferplattformen", "s4t": "Küchenchef-Vermittlung", "s4i": "Wir bringen Sie mit Küchenchefs in Thailand und im Ausland zusammen, die zu Ihrem Konzept, Ihren Standards und Ihrer Küchenkultur passen.", "s4f": "Sie brauchen einen Küchenchef für eine Neueröffnung oder suchen Ersatz.", "s4c1": "Das passende Chefprofil für Ihr Konzept definieren", "s4c2": "Kandidaten in Thailand und im Ausland finden", "s4c3": "Prüfung von Können, Standards und Passung zur Küche", "s4c4": "Unterstützung bei Gesprächen und Probekochen", "s4c5": "Hilfe beim Angebot und beim Arbeitsstart", "s5t": "Marketingberatung", "s5i": "Marken- und Digitalmarketing mit messbaren Ergebnissen, einschließlich der Einrichtung, die Ihre Lieferplattform-Einträge brauchen.", "s5f": "Sie starten eine Marke oder haben ein gutes Produkt, das noch zu wenige kennen.", "s5c1": "Markenstrategie und Positionierung", "s5c2": "Digitalmarketing und Social Media", "s5c3": "Content und Kampagnen", "s5c4": "Einrichtung und Optimierung auf Lieferplattformen", "s5c5": "Ergebnisse anhand klarer Ziele verfolgen", "s6t": "Rechtsberatung", "s6i": "Wir übernehmen die rechtliche Vorarbeit für die Eröffnung, damit Ihr Betrieb vom ersten Tag an korrekt gegründet und lizenziert ist.", "s6f": "Sie eröffnen in Thailand und möchten dabei alle Vorschriften einhalten.", "s6c1": "Firmengründung und Registrierung", "s6c2": "Lizenzen und Genehmigungen für Gastronomiebetriebe", "s6c3": "Regulatorische Anforderungen für Ihre Betriebsart", "s6c4": "Hinweise, was vor der Eröffnung vorzubereiten ist", "s7t": "Beschaffung und Einbau von Küchen- und Restaurantausstattung", "s7i": "Wir planen, beschaffen und installieren die Ausstattung, die Ihre Küche wirklich braucht – ob Neubau oder Renovierung.", "s7f": "Sie bauen eine neue Küche oder renovieren ein Restaurant oder Hotel.", "s7c1": "Küchenplanung und Geräteplanung", "s7c2": "Auswahl der Ausstattung passend zu Menü und Budget", "s7c3": "Beschaffung bei Lieferanten", "s7c4": "Lieferung, Installation und Einbau", "s7c5": "Übergabe und Prüfung vor der Eröffnung"}};
+var lang="en";
+function apply(l){
+  lang=l;document.documentElement.lang=l;
+  document.querySelectorAll("[data-i18n]").forEach(function(el){var v=(T[l]&&T[l][el.getAttribute("data-i18n")])||T.en[el.getAttribute("data-i18n")];if(v)el.textContent=v});
+  document.querySelectorAll("[data-lang]").forEach(function(b){b.setAttribute("aria-pressed",b.dataset.lang===l?"true":"false")});
+  document.title=T[l].title;
+}
+document.querySelectorAll("[data-lang]").forEach(function(b){b.addEventListener("click",function(){apply(b.dataset.lang);try{localStorage.setItem("mh-lang",b.dataset.lang)}catch(e){}})});
+try{var saved=localStorage.getItem("mh-lang");if(saved&&T[saved])apply(saved)}catch(e){}
+
+/* highlight the section being read */
+(function(){
+  var links=document.querySelectorAll(".snav a"),map={};
+  links.forEach(function(a){map[a.getAttribute("href").slice(1)]=a});
+  if(!("IntersectionObserver" in window))return;
+  var io=new IntersectionObserver(function(es){
+    es.forEach(function(e){if(e.isIntersecting){links.forEach(function(a){a.classList.remove("on")});map[e.target.id].classList.add("on")}});
+  },{rootMargin:"-20% 0px -70% 0px"});
+  document.querySelectorAll(".sd").forEach(function(s){io.observe(s)});
+})();
+</script>
+</body>
+</html>
